@@ -122,10 +122,3 @@ class vector(object):
 
     def area_of_triangle_with(self, v):
         return self.area_of_parallelogram_with(v) / 2.0
-
-
-v1 = vector([8.462, 7.893, -8.187])
-v2 = vector([6.984, -5.975, 4.778])
-
-print(v1.area_of_parallelogram_with(v2))
-print(v1.area_of_triangle_with(v2))
